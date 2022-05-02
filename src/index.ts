@@ -17,13 +17,8 @@ let numero: number = Number(
 entero = numero;
 
 function evaluar_numero_entero() {
-  /*   while (entero <= 0) {
-    entero = Number(prompt("Ingrese un numero: "));
-  } */
-  //if (entero % 1 !== 0) {
   while (entero % 1 !== 0 || entero <= 0) {
     entero = Number(prompt("Error: ingrese un numero entero positivo: "));
-    // }
   }
   return entero;
 }
